@@ -4,6 +4,7 @@ html,input{
 
 body{
     width: 100%;
+    background-color: rgb(236, 5, 236);
     max-width: 600px;
     margin: 0px auto;
     padding: 2em;
@@ -39,6 +40,7 @@ label{
     text-align: right;
     width: 30%;
     margin-right: 2%;
+    color:black;
 }
 
 input{
@@ -53,5 +55,16 @@ button{
 error-output{
     font-size: 12px;
     font-size: italic;
-    color: blue;
+    color: rgb(113, 179, 27);
+}
+@media only screen and (max-width:360px) {
+    h1{
+        font-size: 40px;
+        text-align: center;
+    }
+    label{
+        width: 40%;
+        font-size: 144px;
+    }
+    
 }
